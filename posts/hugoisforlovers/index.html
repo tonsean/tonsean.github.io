@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="tw">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Getting Started with Hugo"><meta property="og:title" content="Getting Started with Hugo" />
+<meta property="og:description" content="Step 1. Install Hugo Go to中文 Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tonair.com.tw/posts/hugoisforlovers/" />
+<meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-12-29T18:53:11+08:00" />
+<title>Getting Started with Hugo | TONAIR</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.8ee891d8dd34fb8b09309d336809d47b0da3d2b94b945845deb52a04253304a4.css" integrity="sha256-juiR2N00&#43;4sJMJ0zaAnUew2j0rlLlFhF3rUqBCUzBKQ=">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="https://tonair.com.tw/"><span>TONAIR</span>
+  </a>
+</h2>
+
+
+
+
+
+
+    <ul>
+<li><a href="/docs/about/"><strong>公司簡介</strong></a></li>
+<li><a href="/docs/products/"><strong>產品資訊</strong></a>
+<ul>
+<li>空壓自動排水器
+<ul>
+<li><a href="/docs/products/auto-drain-valves/ad24/">AD-24</a></li>
+<li><a href="/docs/products/auto-drain-valves/ad34/">AD-34</a></li>
+</ul>
+</li>
+<li><a href="/docs/products/separation-filters/">空壓分離過濾器</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>通昇實業有限公司</li>
+<li>電話: 07-3867818</li>
+<li>傳真: 07-3853065</li>
+</ul>
+
+
+
+
+<p><a href="mailto:service@tonair.com.tw"><img src="/email.png" alt="EMAIL" width="16" height="16">service@tonair.com.tw</a></p>
+<p><a href="mailto:tonair@ms16.hinet.net"><img src="/email.png" alt="EMAIL" width="16" height="16">tonair@ms16.hinet.net</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+
+
+  
+
+  
+
+
+  
+
+
+<div class="book-languages">
+
+  <ul>
+    <li class="">
+      <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+      <img src="/tw.gif"/>
+      中文
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="">
+      <a href="https://tonair.com.tw/en/posts/hugoisforlovers/" class="">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        <img src="/tw.gif"/>
+        English
+      </a>
+    </li>
+    
+    <li class="active">
+      <a href="https://tonair.com.tw/" class="">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        <img src="/tw.gif"/>
+        中文
+      </a>
+    </li>
+    
+  </ul>
+
+</div>
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+  <strong>Getting Started with Hugo</strong>
+</header>
+
+      
+  
+  <header class="markdown">
+    <h1>Getting Started with Hugo</h1>
+    
+    <h5>
+      <strong>Apr 2, 2014</strong>
+    </h5>
+    
+  </header>
+  <article class="markdown"><h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+<p>Go to中文 <a href="https://github.com/spf13/hugo/releases">Hugo releases</a> and download the
+appropriate version for your OS and architecture.</p>
+<p>Save it somewhere specific as we will be using it in the next step.</p>
+<p>More complete instructions are available at <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a></p>
+<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
+<p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.</p>
+<p>Follow the following steps:</p>
+<ol>
+<li>Clone the <a href="http://github.com/spf13/hugo">Hugo repository</a></li>
+<li>Go into the repo</li>
+<li>Run hugo in server mode and build the docs</li>
+<li>Open your browser to http://localhost:1313</li>
+</ol>
+<p>Corresponding pseudo commands:</p>
+<pre><code>git clone https://github.com/spf13/hugo
+cd hugo
+/path/to/where/you/installed/hugo server --source=./docs
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Press ctrl+c to stop
+</code></pre>
+<p>Once you've gotten here, follow along the rest of this page on your local build.</p>
+<h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
+<p>Stop the Hugo process by hitting Ctrl+C.</p>
+<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
+<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
+&gt; Press ctrl+c to stop
+</code></pre>
+<p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
+content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
+<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
+are located at the same relative location as the url, in our case
+<code>docs/content/overview/quickstart.md</code>.</p>
+<p>Change and save this file.. Notice what happened in your terminal.</p>
+<pre><code>&gt; Change detected, rebuilding site
+
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 26 ms
+</code></pre>
+<p>Refresh the browser and observe that the typo is now fixed.</p>
+<p>Notice how quick that was. Try to refresh the site before it's finished building. I double dare you.
+Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
+<h2 id="step-4-have-fun">Step 4. Have fun</h2>
+<p>The best way to learn something is to play with it.</p>
+</article>
+
+      <div class="book-footer justify-between">
+  
+  
+
+
+  
+
+  
+
+
+  
+
+
+<div class="book-languages">
+
+  <ul>
+    <li class="">
+      <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+      <img src="/tw.gif"/>
+      中文
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="">
+      <a href="https://tonair.com.tw/en/posts/hugoisforlovers/" class="">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        <img src="/tw.gif"/>
+        English
+      </a>
+    </li>
+    
+    <li class="active">
+      <a href="https://tonair.com.tw/" class="">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        <img src="/tw.gif"/>
+        中文
+      </a>
+    </li>
+    
+  </ul>
+
+</div>
+
+  
+
+  
+  
+  <div>
+    
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/0a25e64d85c9354ddb72ae021dab306927683be0" title=' arming | Dec 29, 2019' target="_blank">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>Dec 29, 2019</span>
+    </a>
+  </div>
+  
+  
+
+  
+
+</div>
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc levels-3 fixed">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#step-1-install-hugo">Step 1. Install Hugo</a></li>
+        <li><a href="#step-2-build-the-docs">Step 2. Build the Docs</a></li>
+        <li><a href="#step-3-change-the-docs-site">Step 3. Change the docs site</a></li>
+        <li><a href="#step-4-have-fun">Step 4. Have fun</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+</body>
+
+</html>

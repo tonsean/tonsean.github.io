@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Separation Filter on TONAIR</title>
+    <link>https://tonair.com.tw/en/docs/products/separation-filters/</link>
+    <description>Recent content in Separation Filter on TONAIR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://tonair.com.tw/en/docs/products/separation-filters/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
