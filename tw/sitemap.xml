@@ -4,7 +4,6 @@
   
   <url>
     <loc>https://tonair.com.tw/docs/products/auto-drain-valves/ad24/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,7 +18,6 @@
   
   <url>
     <loc>https://tonair.com.tw/docs/about/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,7 +32,6 @@
   
   <url>
     <loc>https://tonair.com.tw/docs/products/auto-drain-valves/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -49,7 +46,6 @@
   
   <url>
     <loc>https://tonair.com.tw/docs/products/auto-drain-valves/ad34/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -64,7 +60,6 @@
   
   <url>
     <loc>https://tonair.com.tw/docs/products/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -79,7 +74,6 @@
   
   <url>
     <loc>https://tonair.com.tw/docs/products/separation-filters/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -94,7 +88,7 @@
   
   <url>
     <loc>https://tonair.com.tw/posts/creating-a-new-theme/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -109,7 +103,7 @@
   
   <url>
     <loc>https://tonair.com.tw/posts/migrate-from-jekyll/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -124,7 +118,7 @@
   
   <url>
     <loc>https://tonair.com.tw/posts/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -138,8 +132,23 @@
   </url>
   
   <url>
+    <loc>https://tonair.com.tw/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tonair.com.tw/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://tonair.com.tw/"
+                />
+  </url>
+  
+  <url>
     <loc>https://tonair.com.tw/posts/goisforlovers/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -154,7 +163,7 @@
   
   <url>
     <loc>https://tonair.com.tw/posts/hugoisforlovers/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -178,21 +187,6 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://tonair.com.tw/docs/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://tonair.com.tw/</loc>
-    <lastmod>2019-12-29T18:53:11+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tonair.com.tw/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://tonair.com.tw/"
                 />
   </url>
   
